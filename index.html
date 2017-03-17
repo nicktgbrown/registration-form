@@ -8,45 +8,51 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
 </head>
 <body>
-  <section>
-    <div class="max-length pad-t">
-      <div class="peta push-0">Want to go to Mars?</div>
-      <hr>
-      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-      <div class="giga push">Personal details</div>
-      <div class="push">
-        <label for="name">Name</label>
-        <input id="name" name="name">
-      </div>
-      <div class="push">
-        <label for="age">Age</label>
-        <input id="age" name="age">
-      </div>
-      <div class="push">
-        <label for="email">Email</label>
-        <input id="email" name="email">
-      </div>
-      <div class="push">
-        <label for="subject"> Physical fitness </label>
-        <select id="subject" name="_subject">
-          <option>Super-human</option>
-          <option>Fit as a fiddle</option>
-          <option>Not terribly strong</option>
-          <option>A little couch-potato-y</option>
-        </select>
-      </div>
-      <div class="push">
-        <label for="address">Address</label>
-        <textarea id="email" name="email"></textarea>
-      </div>
-      <div class="push">
-        <div class="giga push">Mission statement</div>
-        <p class="push-0">Why do you want to go to Mars?</p>
-        <textarea id="details" name="details"></textarea>
+  <section class="max-length wrapper">
+    <div class="pad-t">
+      <h1 class="exa push normal">Want to go to Mars?</h1>
+      <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <fieldset>
+        <legend class="giga normal italic">Personal details</legend>
+        <div class="push pad-t">
+          <label for="name">Name</label>
+          <input id="name" name="name">
         </div>
-      </div>
-      <button class="btn center" type="submit">Register for the trip!</btn>
+        <div class="push">
+          <label for="age">Age</label>
+          <input id="age" name="age">
+        </div>
+        <div class="push">
+          <label for="email">Email</label>
+          <input id="email" name="email">
+        </div>
+        <div class="push">
+          <label for="subject"> Physical fitness </label>
+          <select id="subject" name="_subject">
+            <option>Super-human</option>
+            <option>Fit as a fiddle</option>
+            <option>Not terribly strong</option>
+            <option>A little couch-potato-y</option>
+          </select>
+        </div>
+        <div class="">
+          <label for="address">Address</label>
+          <textarea id="address" name="address"></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend class="giga push italic normal">Mission statement</legend>
+        <div class="push">
+          <p class="push-0">Why do you want to go to Mars?</p>
+          <textarea id="details" name="details"></textarea>
+        </div>
+          <btn class="btn push" type="submit">Register for the trip!</btn>
+      </fieldset>
+    </div>
+  </section>
+  Request to join the mission
 </body>
 </html>
