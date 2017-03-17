@@ -12,47 +12,51 @@
 </head>
 <body>
   <section class="max-length wrapper">
-    <div class="pad-t">
-      <h1 class="exa push normal">Want to go to Mars?</h1>
-      <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-      <fieldset>
-        <legend class="giga normal italic">Personal details</legend>
-        <div class="push pad-t">
-          <label for="name">Name</label>
-          <input id="name" name="name">
-        </div>
-        <div class="push">
-          <label for="age">Age</label>
-          <input id="age" name="age">
-        </div>
-        <div class="push">
-          <label for="email">Email</label>
-          <input id="email" name="email">
-        </div>
-        <div class="push">
-          <label for="subject"> Physical fitness </label>
-          <select id="subject" name="_subject">
-            <option>Super-human</option>
-            <option>Fit as a fiddle</option>
-            <option>Not terribly strong</option>
-            <option>A little couch-potato-y</option>
-          </select>
-        </div>
-        <div class="">
-          <label for="address">Address</label>
-          <textarea id="address" name="address"></textarea>
-        </div>
-      </fieldset>
-      <fieldset>
-        <legend class="giga push italic normal">Mission statement</legend>
-        <div class="push">
-          <p class="push-0">Why do you want to go to Mars?</p>
-          <textarea id="details" name="details"></textarea>
-        </div>
-          <btn class="btn push" type="submit">Register for the trip!</btn>
-      </fieldset>
-    </div>
+    <form class="push-0" action="https://formspree.io/brow1157@algonquinlive.com" method="POST">
+      <div class="pad-t">
+        <h1 class="exa push normal">Want to go to Mars?</h1>
+        <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+        <fieldset>
+          <legend class="giga normal italic">Personal details</legend>
+          <div class="grid">
+            <div class="pad-t unit xs-1 s-1 m-1 l-1-2 space-right">
+              <label for="name">Name</label>
+              <input id="name" name="name">
+            </div>
+            <div class="pad-t unit xs-1 s-1 m-1 l-1-2">
+              <label for="age">Age</label>
+              <input id="age" name="age">
+            </div>
+            <div class="pad-t unit xs-1 s-1 m-1 l-1-2 space-right">
+              <label for="email">Email</label>
+              <input id="email" name="email">
+            </div>
+            <div class="pad-t unit xs-1 s-1 m-1 l-1-2">
+              <label for="subject"> Physical fitness </label>
+              <select id="subject" name="_subject">
+                <option>Super-human</option>
+                <option>Fit as a fiddle</option>
+                <option>Not terribly strong</option>
+                <option>A little couch-potato-y</option>
+              </select>
+            </div>
+            <div class="push unit xs-1 s-1 m-1 l-1-2">
+              <label for="address">Address</label>
+              <textarea id="address" name="address"></textarea>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend class="giga italic normal">Mission statement</legend>
+          <div class="pad-t pad-b">
+            <p class="push-0">Why do you want to go to Mars?</p>
+            <textarea id="details" name="details"></textarea>
+          </div>
+          <button class="btn" type="submit">Register for the trip!</button>
+        </fieldset>
+        <input type="hidden" name="subject" value="Request to join the mission">
+      </div>
+    </form>
   </section>
-  Request to join the mission
 </body>
 </html>

@@ -6,10 +6,6 @@ body {
   background-color: #f2f2f2;
 }
 
-.contact {
-  background-color: #f2f2f2;
-}
-
 section {
   padding: 1.3em;
   background-color: #fff;
@@ -20,5 +16,13 @@ h1 {
 }
 
 @media only screen and (min-width: 60em) {
+
+  .contact {
+    background-color: #f2f2f2;
+  }
+
+  .space-right {
+    padding-right: 1em;
+  }
 
 }
